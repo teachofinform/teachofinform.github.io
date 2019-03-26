@@ -820,6 +820,18 @@ button{
     color: green;
     background-color: aquamarine;
 }
+.frame {
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+}
 
+.frame iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
