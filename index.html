@@ -2,9 +2,9 @@
 <html lang="zxx">
 <head>
 	<meta charset="utf-8">
-	<title>Bootstrap Landing</title>
-
-
+	<title>Development studies</title>
+    <link rel="shortcut icon" href="/img/art-man-xs.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -31,12 +31,6 @@
 				<div class="row">
 					<div class="col-xs-5 col-sm-3 col-md-3 wrap_head_logo">
 					</div>
-					<div id="nav-icon3" data-list="mobile_menu">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
 					<div class="col-xs-12 col-sm-9 col-md-9 wrap_head_nav" id="mobile_menu">
 						<ul class="head_list">
 							<li>
@@ -45,18 +39,18 @@
 								</a>
 							</li>
 							<li>
-								<a href="#html" class="head_links">
+								<a href="html.html" class="head_links">
 									<span>HTML</span>
 								</a>
 							</li>
 							<li>
-								<a href="#css" class="head_links">
+								<a href="css.html" class="head_links">
 									<span>CSS</span>
 								</a>
 							</li>
 							<li>
-								<a href="#js" class="head_links">
-									<span>Java Script</span>
+								<a href="js.html" class="head_links">
+									<span>JavaScript</span>
 								</a>
 							</li>
 							<li>
@@ -73,25 +67,35 @@
 	<!-- BEGIN MAIN CONTENT -->
 	
 		<section class="main_slider_section" id="main_slider">
-			<div class="overlay_section"></div>
-			<div class="container">
-				<div class="row">
-					<div class="main_slider">
-						<div class="slider_item">
-							<h1>Вітаю!<br></h1>
-							<p class="slider_txt"><b>Веб-програмування</b> — галузь веб-розробки і різновид дизайну, в завдання якої входить проектування користувальницьких веб-інтерфейсів для сайтів або веб-додатків. Веб-дизайнери проектують логічну структуру веб-сторінок, продумують найбільш зручні рішення подачі інформації, а також займаються художнім оформленням веб-проекту.</p>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			
-		</section>
-		<!-- BEGIN SERVICE SECTION  -->
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="image">
+                        <p><i>Будьте чесними і з собою, і з людьми. Завжди робіть все вчасно, ніколи не здавайтеся, йдіть до своїх цілей, навіть якщо все погано</i><br><b>Стів Джобс</b></p>
+                        <img src="img/im.jpg" class="d-block w-100" alt="Джобс">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="image">
+                            <p><i>Ви вважаєте, що знаєте про щось, коли вивчаєте, є більш певними, коли можете написати про це, ще більш, коли можете навчити інших, але цілком упевнені, коли можете програмувати. — «Епіграми про програмування» (1982)</i><br><b>Алан Перліс</b></p>
+                            <img src="img/im2.jpeg" class="d-block w-100" alt="Перліс">
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                        <div class="image">
+                            <p><i>Ніколи не довіряй комп’ютеру, який ти не можеш викинути у вікно</i><br><b>Стів Возняк</b></p>
+                            <img src="img/im3.jpg" class="d-block w-100" alt="Перліс">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+          </section>
+<!-- BEGIN HTML SECTION  -->
 		<section class="service_section" id="html">
 			<div class="container">
 				<div class="row">
-				<br><br><br>
 				<h2>HTML</h2>
                     <span class="sub_title">HTML — стандартна мова розмітки веб-сторінок в Інтернеті. Більшість веб-сторінок створюються за допомогою мови HTML (або XHTML). Документ HTML оброблюється браузером та відтворюється на екрані у звичному для людини вигляді.
                         <ul>
@@ -103,111 +107,51 @@
                                 <li>створення структурованого документа шляхом позначення структурного складу тексту: заголовки, абзаци, списки, таблиці, цитати та інше;</li>
                                 <li>отримання інформації із Всесвітньої мережі через гіперпосилання;</li>
                                 <li>створення інтерактивних форм;</li>
-                                <li>включення зображень, звуку, відео, та інших об'єктів до тексту.</li>
+                                <li>включення зображень, звуку, відео, та інших об'єктів до тексту.   <a href="html.html">далі...</a></li>
+                             
                                 </ul>
                             </ul></span>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/2.png" alt="">
-                        </div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 1</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/3.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 2</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/4.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 3</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/5.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 4</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/6.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 5</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/7.png" alt="">
-					</div>
-					<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 6</a></h3>
-				</div>
-			</div>
-		</div>
+                </div></div>
 	</section>
-	<!-- BEGIN ABOUT WORK SECTION -->
+<!-- BEGIN CSS SECTION  -->
 	<section class="service_section" id="css">
 			<div class="container">
 				<div class="row">
-				<br><br><br>
+				
 				<h2>CSS</h2>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/2.png" alt="">
-                        </div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 1</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/3.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 2</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/4.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 3</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/5.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 4</a></h3>
-					</div>
-				</div>
+                      <span class="sub_title"> CSS (англ. Cascading Style Sheets, укр. Каскадні таблиці стилів) — спеціальна мова, що використовується для опису зовнішнього вигляду сторінок, написаних мовами розмітки даних.
+                        <ul>
+                            <li>Найчастіше CSS використовують для візуальної презентації сторінок, написаних HTML та XHTML, але формат CSS може застосовуватися до інших видів XML-документів.</li>
+                            <li>Специфікації CSS були створені та розвиваються Консорціумом Всесвітньої мережі.</li>
+                            <li>CSS має різні рівні та профілі. Наступний рівень CSS створюється на основі попередніх, додаючи нову функціональність або розширюючи вже наявні функції. Рівні позначаються як CSS1, CSS2 та CSS3. Профілі — сукупність правил CSS одного або більше рівнів, створені для окремих типів пристроїв або інтерфейсів. Наприклад, існують профілі CSS для принтерів, мобільних пристроїв тощо.</li>
+                            <li>CSS (каскадна або блочна верстка) прийшла на заміну табличній верстці веб-сторінок. Головна перевага блочної верстки — розділення змісту сторінки (даних) та їхньої візуальної презентації.   <a href="css.html">далі...</a></li>
+                        </ul></span>
+                  </div>
 		</div>
 	</section>
-<!-- BEGIN OUR GALLERY SECTION -->
+<!-- BEGIN JavaScript SECTION  -->
 <section class="service_section" id="js">
 			<div class="container">
 				<div class="row">
-				<br><br><br>
-				<h2>Java script</h2>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/2.png" alt="">
-                        </div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 1</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/3.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 2</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/4.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 3</a></h3>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 clearfiix service_box">
-						<div class="icon_item">
-							<img src="img/5.png" alt="">
-						</div>
-						<h3> <a href=https://docs.google.com/presentation/d/1azRZqAaqguLXCBYVGVN3oT5coHdTpCSr1ACtuTEreyo/edit?usp=sharing>Урок 4</a></h3>
-					</div>
+				
+				<h2>JavaScript</h2>
+					    <span class="sub_title">JavaScript (JS) — динамічна, об'єктно-орієнтована[4] прототипна мова програмування. Реалізація стандарту ECMAScript. Найчастіше використовується для створення сценаріїв веб-сторінок, що надає можливість на стороні клієнта (пристрої кінцевого користувача) взаємодіяти з користувачем, керувати браузером, асинхронно обмінюватися даними з сервером, змінювати структуру та зовнішній вигляд веб-сторінки.
+
+                        <ul>
+                            <li>JavaScript класифікують як прототипну (підмножина об'єктно-орієнтованої), скриптову мову програмування з динамічною типізацією. Окрім прототипної, JavaScript також частково підтримує інші парадигми програмування (імперативну та частково функціональну) і деякі відповідні архітектурні властивості, зокрема: динамічна та слабка типізація, автоматичне керування пам'яттю, прототипне наслідування, функції як об'єкти першого класу.</li>
+                            <li>Мова JavaScript використовується для:</li>
+                            
+                            <ul>
+                                <li>написання сценаріїв веб-сторінок для надання їм інтерактивності;</li>
+                                <li>створення односторінкових веб-застосунків (ReactJS, AngularJS, Vue.js);</li>
+                                <li>програмування на стороні сервера (Node.js);</li>
+                                <li>стаціонарних застосунків (Electron, NW.js);</li>
+                                <li>мобільних застосунків (React Native, Cordova);</li>
+                                <li>сценаріїв в прикладному ПЗ (наприклад, в програмах зі складу Adobe Creative Suite чи Apache JMeter);
+                                    всередині PDF-документів тощо.</li>
+                                </ul>
+                            <li>Незважаючи на схожість назв, мови Java та JavaScript є двома різними мовами, що мають відмінну семантику, хоча й мають схожі риси в стандартних бібліотеках та правилах іменування. Синтаксис обох мов отриманий «у спадок» від мови С, але семантика та дизайн JavaScript є результатом впливу мов Self та Scheme.   <a href="js.html">далі...</a></li>
+                            </ul></span>
 				</div>
 		</div>
 	</section>
@@ -218,15 +162,17 @@
 				<br><br>
 				<h2 >Python</h2>
                      <span class="sub_title">
-                       <p>Python (найчастіше вживане прочитання — «Па́йтон», запозичено назву з британського шоу Монті Пайтон) — інтерпретована об'єктно-орієнтована мова програмування високого рівня зі строгою динамічною типізацією.<i>Розроблена в 1990 році <b>Гвідо ван Россумом.</b></i> <br/>Структури даних високого рівня разом із динамічною семантикою та динамічним зв'язуванням роблять її привабливою для швидкої розробки програм, а також як засіб поєднування наявних компонентів. <br/>Python підтримує модулі та пакети модулів, що сприяє модульності та повторному використанню коду. Інтерпретатор Python та стандартні бібліотеки доступні як у скомпільованій, так і у вихідній формі на всіх основних платформах. <br/>В мові програмування Python підтримується кілька парадигм програмування, зокрема: об'єктно-орієнтована, процедурна, функціональна та аспектно-орієнтована.</p></span>
+                       <p>Python (найчастіше вживане прочитання — «Па́йтон», запозичено назву з британського шоу Монті Пайтон) — інтерпретована об'єктно-орієнтована мова програмування високого рівня зі строгою динамічною типізацією.<i>Розроблена в 1990 році <b>Гвідо ван Россумом.</b></i> <br/>Структури даних високого рівня разом із динамічною семантикою та динамічним зв'язуванням роблять її привабливою для швидкої розробки програм, а також як засіб поєднування наявних компонентів. <br/>Python підтримує модулі та пакети модулів, що сприяє модульності та повторному використанню коду. Інтерпретатор Python та стандартні бібліотеки доступні як у скомпільованій, так і у вихідній формі на всіх основних платформах. <br/>В мові програмування Python підтримується кілька парадигм програмування, зокрема: об'єктно-орієнтована, процедурна, функціональна та аспектно-орієнтована.   <a href="python.html">далі...</a></p></span>
                 </div>
 		</div>
 	</section>
     <!-- BEGIN OUR PERSONAL SECTION -->
 <section class="our_personal_section" id="our_personal">
 	<div class="container">
+        <h2>Корисні ресурси</h2>
 		<div class="row">
-			<h2>Корисні ресурси</h2>
+			
+            
 			<div class="col-xs-6 col-sm-6 col-md-3 personal_box">
 				<div class="box">
                     <div class="person_img">
@@ -285,10 +231,23 @@
 		</div>
 	</div>
 </section>
+        <section class="service_section" id="python">
+			<div class="container">
+				<div class="row">
+				<br><br>
+                    <h2 ><i>Перевір себе:</i></h2>
+                     <span class="sub_title">
+                       <p>   <span class="persone_name"><button onclick="window.location.href = 'https://www.classtime.com/en/';">Перейти</button></span></p></span>
+                </div>
+		</div>
+	</section>
 </main>
 
     <a href="#" id="goTop">Вгору</a>
-
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
