@@ -193,3 +193,22 @@ $(document).ready(function(){
 		}
 	});
 });
+var visible = true;
+
+function showFun() {
+
+    if(visible) {
+
+        document.getElementById('myShowBlock' ).style.display = 'block';
+
+        visible = false;
+
+    } else {
+
+        document.getElementById('myShowBlock' ).style.display = 'none';
+
+        visible = true;
+
+    }
+
+}
